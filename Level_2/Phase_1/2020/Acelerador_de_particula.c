@@ -18,20 +18,24 @@ int main() {
         }
         
     } else{
-        while(D < 8){
+        //When D > 8 
+        while(D > 8){
             rest = D % 8;
             D = D / 8;
             //complete one loop
             
         }
+        if(rest == 3){
+            sensor = 1;
+        } else if(rest == 4) {
+            sensor = 2;   
+        } else {
+            sensor = 3;
+        }
     }
-if(rest == 3){
-        sensor = 1;
-    } else if(rest == 4) {
-        sensor = 2;   
-    } else {
-        sensor = 3;
-    }
+    
+        
+    printf("sensor = %i", sensor);
 
     
    
