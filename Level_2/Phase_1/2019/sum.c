@@ -26,7 +26,12 @@ int main(void) {
       ++rectangle;
     } else if(sum > number_sum) {
       sum = values[i];
-      sum = (sum > number_sum) ? 0 : values[i];
+      if(sum == number_sum) {
+        ++rectangle;
+      } else {
+        sum = values[i];
+      }
+
     }
 
   }
