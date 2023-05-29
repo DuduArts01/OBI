@@ -21,4 +21,4 @@ for i in range(0, N):
         x += 1
     
 
-print(f"x = {x}\n")
+print(x)
