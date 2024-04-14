@@ -36,7 +36,8 @@ def readevent(Ev):
                     result.pop(n + 2)#remove old time
                     result.pop() #remove last time repeted
                     result.pop() #remove last person repeted
-                
+                #Need to adjust this delete fix
+
     return result
 def printResut(r):
     for g in range(0, len(r), 2):
