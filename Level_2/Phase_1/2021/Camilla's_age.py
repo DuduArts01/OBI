@@ -7,4 +7,4 @@ for i in range(0, 3):
 ages.remove(max(ages)) # remove the last age = Cibele
 ages.remove(min(ages)) # remove the youngest girl = Celeste
 
-print(ages) # Camilla's age 
+print(age[0]) # Camilla's age 
